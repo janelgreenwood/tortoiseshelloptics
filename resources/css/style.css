@@ -244,10 +244,7 @@ footer p {
 
 @media only screen and (max-width : 480px) {
 
-html {
-  width: 100%;
-  max-width: 480px;
-}
+
 
   .logo h2 {
     display: none;
@@ -353,7 +350,7 @@ padding-bottom: 4rem;
 }
 
 .philosophy h2 {
-  width: 100%;
+  width: 80%;
   font-family: helvetica;
   font-weight: bold;
   font-size: 1rem;
@@ -365,13 +362,14 @@ padding-bottom: 4rem;
   margin-bottom: 1rem;
   text-align: center;
   padding-right: 4rem;
+  margin: 0 auto;
 }
 
 
 
 .appointment h2 {
 
-  width: 100%;
+  width: 80%;
   font-family: helvetica;
   font-weight: bold;
   font-size: 1rem;
@@ -383,6 +381,7 @@ padding-bottom: 4rem;
   margin-bottom: 1rem;
   text-align: center;
   padding-right: 4rem;
+  margin: 0 auto;
 }
 
   .philosophy p {
@@ -390,6 +389,8 @@ padding-bottom: 4rem;
     font-family: helvetica;
     font-size: 0.77rem;
     padding-top: 1rem;
+    margin: 0 auto;
+    width: 80%;
   }
 
   .appointment p {
@@ -397,16 +398,28 @@ padding-bottom: 4rem;
     font-family: helvetica;
     font-size: 0.77rem;
     padding-top: 1rem;
+    margin: 0 auto;
+    width: 80%;
   }
 
-footer {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 3rem;
-}
-
-  footer p {
-    display: none;
+  footer {
+    margin: none;
+    padding: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5rem;
   }
+
+    footer p {
+      display: none;
+    }
+
+    footer {
+      margin-top: none;
+      padding-top: none;
+      padding-left: none;
+      padding-bottom: none;
+      display: flex;
+
+    }
